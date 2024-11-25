@@ -1,0 +1,32 @@
+/* Responsividade */
+@media (max-width: 300px) {
+    /* Estilos para dispositivos muito pequenos */
+}
+
+@media (min-width: 301px) and (max-width: 380px) {
+    /* Estilos para dispositivos pequenos */
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+    /* Estilos para smartphones */
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para tablets pequenos */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tablets médios e grandes */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para desktops pequenos */
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    /* Estilos para desktops médios */
+}
+
+@media (min-width: 1600px) {
+    /* Estilos para grandes monitores */
+}
