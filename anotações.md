@@ -16,3 +16,12 @@
   }
 
 ```
+
+---
+
+### Inserindo imagens no Díario
+
+Insira a tag img no arquivo 
+```Javascript
+<img src="${aventura.imagem}" alt="${aventura.titulo}" class="img-fluid mb-3">
+```
