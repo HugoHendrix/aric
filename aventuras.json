@@ -1,17 +1,56 @@
 [
     {
         "id": 1,
-        "titulo": "Visita ao Cemitério de Rookgaard",
+        "titulo": "Visita ao Cemitério",
         "data": "23º Dia de Novembro do Ano 851",
         "localizacao": "Sudeste da vila de Rookgaard",
-        "descricao":"O cemitério de Rookgaard é um local onde histórias trágicas e curiosas de seus habitantes são gravadas em pedra. Cada lápide carrega consigo um fragmento da história de Tibia, trazendo reflexões e ensinamentos para os aventureiros que se deparam com elas.",
-        
-
-        "lapide":"Lápide de Maus",
-        "textoIngles": "<blockquote>You see a grave stone. You read: In Memory of Maus, the famous rat hunter. Trapped in a corner by three cave rats.</blockquote>",
-        "traducao": "<em>Você vê uma lápide. Você lê: Em Memória de Maus, o famoso caçador de ratos. Preso em um canto por três ratos de caverna.</em>",
-        "interpretacao": "A história de Maus é marcada pela ironia. Apesar de ser conhecido como um hábil caçador de ratos, ele encontrou seu fim ao ser encurralado por três simples cave rats. No mundo de Tibia, mesmo as criaturas mais fracas podem representar uma ameaça quando não subestimadas. Essa lápide nos lembra que, em Tibia, descuido e excesso de confiança são inimigos letais. Ela também reflete o humor característico do jogo, onde até as tragédias vêm carregadas de uma pitada de ironia."
-      
+        "descricao": "O cemitério de Rookgaard é um local onde histórias trágicas e curiosas de seus habitantes são gravadas em pedra. <br> Cada lápide carrega consigo um fragmento da história de Rookgaard, trazendo reflexões e ensinamentos para os aventureiros que se deparam com elas.",
+        "imagem":"src/img/aric-cemiterio.png",
+        "lapides": [
+            {
+                "titulo": "Lápide de Maus",
+                "textoIngles": "<blockquote>You see a grave stone. You read: In Memory of Maus, the famous rat hunter. Trapped in a corner by three cave rats.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: Em Memória de Maus, o famoso caçador de ratos. Preso em um canto por três ratos de caverna.</em>",
+                "interpretacao": "A história de Maus é marcada pela ironia. Apesar de ser conhecido como um hábil caçador de ratos, ele encontrou seu fim ao ser encurralado por três simples cave rats. Mesmo as criaturas mais fracas podem representar uma ameaça. Essa lápide nos lembra que, descuido e excesso de confiança são inimigos letais."
+            },
+            {
+                "titulo": "Lápide de Hunter",
+                "textoIngles": "<blockquote>You see a grave stone. You read: R.I.P. My friend Hunter, who was mistaken for a monster.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: D.E.P. Meu amigo Hunter, que foi confundido com um monstro.</em>",
+                "interpretacao": "No Tibia, Hunter pode ser entendido como um monstro programado que tem o mesmo nome. Essa ambiguidade ressalta a tensão constante entre sobrevivência e julgamento moral. A lápide também brinca com o perigo de agir sem refletir. O \"amigo\" Hunter foi vítima de um erro de percepção, um lembrete para os jogadores que decisões precipitadas podem ter consequências fatais, tanto no jogo quanto na interação com outros jogadores."
+            },
+            {
+                "titulo": "Lápide de Arkanor",
+                "textoIngles": "<blockquote>You see a grave stone. You read: Here lies the body of Arkanor, Rookgaard's first teleportation scientist. Unfortunately, we still haven't found his head.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: Aqui jaz o corpo de Arkanor, o primeiro cientista de teleporte de Rookgaard. Infelizmente, ainda não encontramos sua cabeça.</em>",
+                "interpretacao": "Arkanor representa o espírito aventureiro e o perigo do desconhecido em Tibia. Como um pioneiro em teleportação, ele desafiou os limites da ciência e da magia, mas pagou o preço com sua vida – e, aparentemente, com sua cabeça. Essa lápide reflete os riscos do progresso e da inovação em um mundo hostil."
+            },
+            {
+                "titulo": "Lápide de Lazy Larry",
+                "textoIngles": "<blockquote>You see a grave stone. You read: Here lies Lazy Larry. Getting up was never his strength.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: Aqui jaz Lazy Larry. Levantar-se nunca foi seu ponto forte.</em>",
+                "interpretacao": "Lazy Larry, como o nome sugere, sucumbiu à sua própria inatividade. Sua lápide carrega uma lição sutil para os jogadores: no mundo dinâmico de Tibia, preguiça e complacência podem ser tão perigosas quanto monstros ou armadilhas. Essa história também é um lembrete para valorizar a proatividade e estar sempre preparado para agir diante do perigo."
+            },
+            {
+                "titulo": "Lápide de Franziska",
+                "textoIngles": "<blockquote>You see a grave stone. You read: Here lies Franziska, who took off her armour just for a really short moment.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: Aqui jaz Franziska, que tirou sua armadura por apenas um instante.</em>",
+                "interpretacao": "A tragédia de Franziska é um aviso claro para os aventureiros de Tibia: nunca abaixe sua guarda, nem mesmo por um momento. Sua morte representa as consequências de uma distração ou erro de julgamento, especialmente em um mundo onde o perigo espreita a cada esquina. Essa lápide destaca a importância do preparo constante e da atenção ao ambiente, qualidades essenciais para sobreviver em Tibia."
+            },
+            {
+                "titulo": "Lápide de Mac",
+                "textoIngles": "<blockquote>You see a grave stone. You read: Here lies Mac, who thought that green liquid was apple soda.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: Aqui jaz Mac, que pensou que aquele líquido verde era refrigerante de maçã.</em>",
+                "interpretacao": "A história de Mac é um exemplo claro de que, em Tibia, nem tudo é o que parece. Sua morte, causada pela ingestão de um líquido tóxico, é um lembrete para os jogadores de sempre questionar o que encontram no jogo. Essa lápide reflete a importância de prestar atenção aos detalhes e agir com cautela, principalmente ao lidar com itens desconhecidos."
+            },
+            {
+                "titulo": "Lápide de Edee K.",
+                "textoIngles": "<blockquote>You see a grave stone. You read: Here lies Edee K. Accidentally stabbed by Al Dee.<scribble> ... sorry.. there can be only one tool shop in town.</blockquote>",
+                "traducao": "<em>Você vê uma lápide. Você lê: Aqui jaz Edee K., acidentalmente esfaqueado por Al Dee. ... desculpe... só pode haver uma loja de ferramentas na cidade.</em>",
+                "interpretacao": "Essa lápide revela uma disputa trágica e humorística entre dois comerciantes. Edee K. foi vítima de um \"acidente\" que parece ter sido motivado por rivalidade profissional. No contexto de Tibia, essa história pode ser vista como uma crítica à natureza competitiva do jogo, onde os jogadores podem entrar em conflito por recursos e território."
+            } 
+        ]
+    
     }
 
 ]

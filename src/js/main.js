@@ -21,31 +21,37 @@ fetch('aventuras.json')
         // Adiciona evento de clique nos itens da lista
         lista.addEventListener("click", (e) => {
             if (e.target && e.target.nodeName === "LI") {
-                const id = parseInt(e.target.getAttribute("data-id"));
-                const aventura = aventuras.find(av => av.id === id);
+                const aventuraId = e.target.getAttribute("data-id");
+                const aventuraSelecionada = aventuras.find(aventura => aventura.id == aventuraId);
 
-                // Verifica se a imagem existe
-                let imagemHTML = '';
-                if (aventura.imagem) {
-                    imagemHTML = `<img src="${aventura.imagem}" alt="${aventura.titulo}" class="img-fluid mb-3">`;
+                // Exibe as informações da aventura
+                if (aventuraSelecionada.id === 1) {
+                    const lapidesHTML = aventuraSelecionada.lapides.map(lapide => {
+                        return `
+                            <div class="estrutura-diario">  
+                                <h5 class="mt-50">${lapide.titulo}</h5>
+                                ${lapide.textoIngles}
+                                <p>${lapide.traducao}</p>
+                                <p>${lapide.interpretacao}</p>
+                            </div>
+                        `;
+                    }).join("");
+
+                    conteudo.innerHTML = `
+                        <div class="estrutura-diario">
+                        <h3>${aventuraSelecionada.titulo}</h3>
+                        <h4><strong>${aventuraSelecionada.data}</strong></h4>
+                        <h4><strong>Localização: ${aventuraSelecionada.localizacao}</strong></h4>
+                        <p>${aventuraSelecionada.descricao}</p>
+                        <img src="${aventuraSelecionada.imagem}" alt="${aventuraSelecionada.titulo}" class="img-fluid borda-img mb-3">
+
+                        </div>
+                        ${lapidesHTML}
+                    `;
                 }
-
-                // Atualiza o conteúdo da aventura com ou sem imagem
-                conteudo.innerHTML = `
-                    <div class="estrutura-diario">
-                        <h3>${aventura.titulo}</h3>
-                        <h4>${aventura.data}</h4>
-                        <h4>Localização: ${aventura.localizacao}</h4>
-                        ${imagemHTML}
-                        <p class="letra-destaque mb-5">${aventura.descricao}</p>
-                        <h5>${aventura.lapide}</h5>
-                        <p>${aventura.textoIngles}</p>
-                        <p>${aventura.traducao}</p>
-                        <p>${aventura.interpretacao}</p>
-                        <hr>
-                    </div>
-                `;
             }
         });
     })
-    .catch(error => console.error("Erro ao carregar as aventuras:", error));
+    .catch(error => {
+        console.error("Erro ao carregar as aventuras:", error);
+    });
