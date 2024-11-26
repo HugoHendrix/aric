@@ -38,6 +38,7 @@ fetch('aventuras.json')
                         <h4>Localização: ${aventura.localizacao}</h4>
                         ${imagemHTML}
                         <p class="letra-destaque mb-5">${aventura.descricao}</p>
+                        <h5>${aventura.lapide}</h5>
                         <p>${aventura.textoIngles}</p>
                         <p>${aventura.traducao}</p>
                         <p>${aventura.interpretacao}</p>

@@ -5,10 +5,12 @@
         "data": "23º Dia de Novembro do Ano 851",
         "localizacao": "Sudeste da vila de Rookgaard",
         "descricao":"O cemitério de Rookgaard é um local onde histórias trágicas e curiosas de seus habitantes são gravadas em pedra. Cada lápide carrega consigo um fragmento da história de Tibia, trazendo reflexões e ensinamentos para os aventureiros que se deparam com elas.",
+        
+
+        "lapide":"Lápide de Maus",
         "textoIngles": "<blockquote>You see a grave stone. You read: In Memory of Maus, the famous rat hunter. Trapped in a corner by three cave rats.</blockquote>",
         "traducao": "<em>Você vê uma lápide. Você lê: Em Memória de Maus, o famoso caçador de ratos. Preso em um canto por três ratos de caverna.</em>",
         "interpretacao": "A história de Maus é marcada pela ironia. Apesar de ser conhecido como um hábil caçador de ratos, ele encontrou seu fim ao ser encurralado por três simples cave rats. No mundo de Tibia, mesmo as criaturas mais fracas podem representar uma ameaça quando não subestimadas. Essa lápide nos lembra que, em Tibia, descuido e excesso de confiança são inimigos letais. Ela também reflete o humor característico do jogo, onde até as tragédias vêm carregadas de uma pitada de ironia."
-
       
     }
 

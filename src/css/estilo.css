@@ -29,6 +29,13 @@
     color: var(--color-antique-brown);
 }
 
+.estrutura-diario h5 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--font-texto-2);
+}
+
 .estrutura-diario p {
     margin-bottom: 1rem;
     font-size: 1.8rem;
