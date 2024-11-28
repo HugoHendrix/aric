@@ -51,6 +51,48 @@
             } 
         ]
     
+    },
+    {
+        "id": 2,
+        "titulo": "Conhecendo Amber e a Linguagem Orc",
+        "data": "25º Dia de Novembro do Ano 851",
+        "localizacao": "Dormitório da Academia de Rookgaard",
+        "descricao": "<p>Aric encontrou Amber, uma exploradora vinda de Thais, que carregava consigo histórias incríveis de aventuras e perigos. Amber chegou à ilha em uma jangada improvisada, enfrentando uma travessia marítima repleta de desafios. Entre conversas, ela compartilhou momentos marcantes de sua jornada, incluindo o período em que foi feita prisioneira por Orcs.</p><p>Amber contou suas histórias com uma vivacidade contagiante, descrevendo batalhas ferozes e viagens por todo o continente de Tibia. No entanto, foi ao mencionar seu tempo como prisioneira dos Orcs que Aric ficou verdadeiramente fascinado.</p><p>Amber revelou que, enquanto explorava territórios ocupados por Orcs, foi capturada e mantida prisioneira por meses. Durante esse tempo, ela aprendeu palavras básicas do idioma Orc, como <strong>'mok' (sim)</strong> e <strong>'burp' (não)</strong>, para sobreviver e negociar com seus captores. As condições eram brutais, mas a força de vontade de Amber a ajudou a escapar. </p>",
+        "imagem": "src/img/amber.png",
+        "dialogo": [
+            {
+                "fala": "Amber: <blockquote>Not the nicest guys you can encounter. I had some clashes with them and finally ended up being their prisoner for a few months</blockquote><em>Não são os caras mais legais que você pode encontrar. Eu tive alguns conflitos com eles e finalmente acabei sendo prisioneira deles por alguns meses.</em>",
+                "interpretacao": "Reção ao dizer: <strong>Orc</strong>"
+            }
+            
+        ],
+        "vocabulario_orc": {
+            "geral": {
+                "Charach": "Hi (Olá)",
+                "Futchi": "Bye (Tchau)",
+                "Mok": "Yes (Sim)",
+                "Burp": "No (Não)",
+                "Ikem goshak": "Offer (Oferecer)",
+                "Goshak": "Buy (Comprar)",
+                "Porak": "Weapon (Arma)",
+                "Bata": "Armor or Helmet (Armadura ou Capacete)",
+                "Dora": "Shield (Escudo)"
+            },
+            "armas": {
+                "Burka Bata": "Sword (Espada)",
+                "Charcha": "Sabre",
+                "Hakhak": "Hatchet (Machado)",
+                "Burka": "Short Sword (Espada Curta)",
+                "Batuk": "Bow (Arco)",
+                "Pixo": "Arrows (Flechas)"
+            },
+            "armaduras": {
+                "Tulak Bora": "Studded Armor (Armadura de Revestimento)",
+                "Aka Bora": "Leather Armor (Armadura de Couro)",
+                "Donga": "Brass Shield (Escudo de Latão)",
+                "Grofa": "Studded Helmet (Capacete Revestido)"
+            }
+        }
     }
 
 ]
