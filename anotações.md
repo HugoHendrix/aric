@@ -25,3 +25,12 @@ Insira a tag img no arquivo
 ```Javascript
 <img src="${aventura.imagem}" alt="${aventura.titulo}" class="img-fluid mb-3">
 ```
+
+
+### To do
+
+- [] Verificar background
+- [] Remover borda nativa do Bootstrap
+- [] Adicionar mais aventuras
+- [] Responsivo
+- [] Verificar favicon

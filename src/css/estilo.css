@@ -1,5 +1,5 @@
 .bg-principal { background-color: #e4cda7; background-image: url("/src/img/rpg-project-3.jpg");}
-.borda-img { border: 5px solid var(--color-antique-brown); border-image: url("/src/img/divisor-madeira.png") slice 30 fill;
+.borda-img { border: 5px solid var(--color-antique-brown); border-image: url("src/img/divisor-madeira.png") slice 30 fill;
 }
 
 .titulo-principal {
