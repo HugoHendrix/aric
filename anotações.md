@@ -1,3 +1,14 @@
+### To do
+
+- [x] Verificar background
+- [x] Remover borda nativa do Bootstrap
+- [x] Verificar favicon
+- [ ] Adicionar mais aventuras
+- [ ] Responsivo
+
+
+---
+
 ### Exemplo para estilizar citações
 
 ```HTML
@@ -26,11 +37,4 @@ Insira a tag img no arquivo
 <img src="${aventura.imagem}" alt="${aventura.titulo}" class="img-fluid mb-3">
 ```
 
-
-### To do
-
-- [] Verificar background
-- [] Remover borda nativa do Bootstrap
-- [] Adicionar mais aventuras
-- [] Responsivo
-- [] Verificar favicon
+---
